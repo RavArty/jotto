@@ -1,13 +1,8 @@
 import React from 'react'
-import Enzyme, {shallow} from 'enzyme' 
+import {shallow} from 'enzyme' 
 import {findByTestAttr, checkProps} from './test/testUtils'
 import Congrats from './Congrats'
-import checkPropTypes from 'check-prop-types'
-import EnzymeAdapter from 'enzyme-adapter-react-16';
 
-Enzyme.configure({
-  adapter: new EnzymeAdapter()
-});
 /**
 * Factory function to create a ShallowWrapper for the Congrats component.
 * @function setup
